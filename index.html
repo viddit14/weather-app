@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-app">
+
+        <!-- Search Section -->
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="cityInput" 
+                placeholder="Enter city name"
+            >
+
+            <button id="searchBtn">Search</button>
+        </div>
+
+
+        <!-- Weather Information -->
+        <div class="weather-card">
+
+            <h1 id="cityName">Meerut</h1>
+
+            <p id="date">Sunday, 4 October</p>
+
+            <div class="weather-main">
+
+                <div class="weather-icon" id="weatherIcon">
+                 ☀️
+                </div>
+                    
+
+                <div>
+                    <h2 id="temperature">28°C</h2>
+                    <p id="condition">Clear Sky</p>
+                </div>
+
+            </div>
+
+
+            <!-- Weather Details -->
+            <div class="weather-details">
+
+                <div class="detail">
+                    <span>💧</span>
+                    <p>Humidity</p>
+                    <h3 id="humidity">65%</h3>
+                </div>
+
+                <div class="detail">
+                    <span>💨</span>
+                    <p>Wind</p>
+                    <h3 id="wind">12 km/h</h3>
+                </div>
+
+                <div class="detail">
+                    <span>🌡️</span>
+                    <p>Feels Like</p>
+                    <h3 id="feelsLike">30°C</h3>
+                </div>
+
+                <div class="detail">
+                    <span>👁️</span>
+                    <p>Visibility</p>
+                    <h3 id="visibility">10 km</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
